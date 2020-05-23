@@ -4,7 +4,7 @@
 {
 function bookmarkClick(e) {
     e.preventDefault ();
-    var bm = thi;
+    var bm = this;
     bm.classList.toggle('added');
     var parentId = bm.parentElement.id;
     var bookMarks = document.querySelector('.bookmark-list');
