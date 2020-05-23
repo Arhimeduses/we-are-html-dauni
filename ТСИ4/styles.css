@@ -133,7 +133,11 @@ footer {
 
 .bookmark {
 	color: #00AC6B;
-	padding: 10px;
+	padding-bottom: 15px;
+	margin-left: 10%;
+	margin-top: -15px;
+	display: block;
+	width: 20%;
 }
 
 .added {
@@ -141,8 +145,16 @@ footer {
 }
 
 .bookmark-list a {
-margin-right: 5px;
+	display: inline-block;
+	margin-right: 25vw;
+	color: red;
 }
+
+.bookmark-list a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
 
 /*
 #article_1 {
