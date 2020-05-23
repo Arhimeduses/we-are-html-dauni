@@ -133,6 +133,7 @@ footer {
 
 .bookmark {
 	color: #00AC6B;
+	padding: 10px;
 }
 
 .added {
@@ -143,6 +144,7 @@ footer {
 margin-right: 5px;
 }
 
+/*
 #article_1 {
 
 }
@@ -150,6 +152,7 @@ margin-right: 5px;
 #article_2 {
 
 }
+*/
 
 @media (max-width: 1024px) {
 
