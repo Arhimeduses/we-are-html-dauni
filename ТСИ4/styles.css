@@ -128,15 +128,19 @@ footer {
 }
 
 .bookmark-list {
-
+	background-color: white;
 }
 
 .bookmark {
-
+	color: #00AC6B;
 }
 
 .added {
-	
+	color: purple;
+}
+
+.bookmark-list a {
+margin-right: 5px;
 }
 
 #article_1 {
