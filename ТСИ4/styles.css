@@ -177,6 +177,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 .bookmark {
 	color: #00AC6B;
 	padding-bottom: 15px;
+	padding-left: 5%
 	margin-left: 10%;
 	margin-top: -15px;
 	display: block;
@@ -279,6 +280,14 @@ input:hover, textarea:hover, input:focus, textarea:focus {
    margin: 10px;
    color: #fff;
    border-radius: 3px;
+}
+
+#more1 {
+	display: none;
+}
+
+#more2 {
+	display: none;
 }
 
 @media (max-width: 1024px) {
