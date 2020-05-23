@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
             подложке и окну чтобы показать их. */
          modalElem.classList.add('active');
          overlay.classList.add('active');
-      }); // end click
+      });
 
-   }); // end foreach
+   });
 
 
    closeButtons.forEach(function(item){
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
          overlay.classList.remove('active');
       });
 
-   }); // end foreach
+   });
 
 
     document.body.addEventListener('keyup', function (e) {
@@ -63,8 +63,4 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.modal.active').classList.remove('active');
         this.classList.remove('active');
     });
-
-
-
-
-}); // end ready
+});

@@ -8,6 +8,9 @@
 		<title>SOS, найден новый способ похудеть... </title><!--определяет заголовок элемента-->
 		<script defer src = "index.js"> </script>
 		<script defer src = "index2.js"> </script>
+		<script defer src = "index3.js"> </script>
+		<script defer src = "index3_1.js"> </script>
+		<script defer src = "index3_2.js"> </script>
 	</head>
 
 	<body><!--предназначен для. хранения содержимого веб-страницы, отображаемого в окне браузера-->
@@ -50,8 +53,10 @@
 				<a class="bookmark" href="#"> Добавить в закладки </a>
 
 					<div> <!-- Блок с исозбражением-->
-						<img alt="ETO BIL NE YA" src="bilyash.png" width="50%">
-						<p class="img-description">Как уже видно,<br> товар человеку очень сильно помог,<br> ведь прежде всего мы хотим,<br> чтобы вы были <b>СЧАСТЛИВЫ</b></p>
+						<img alt="ETO BIL NE YA" src="bilyash.png" width="45%">
+						<p class="img-description">Как уже видно,<br> товар человеку очень сильно помог,<br> ведь мы хотим,<br> чтобы вы были
+						<b>СЧАСТЛИВЫ </b><span id="dots1">...</span><span id="more1"><br> и в жизни и в мучительной<br> смерти от нашего продукта</span></p>
+						<button id="btn1" onclick="Read_More1()">Подробнее</button>
 					</div>
 
 					<p class="attention-text">
@@ -65,7 +70,9 @@
 
 					<div> <!-- Блок с исозбражением-->
 						<img alt="I ETO" src="krapiva.png" width="40%" style="border-radius:15%;"><!--предназначен для отображения на веб-странице изображений в графическом формате GIF, JPEG или PNG-->
-						<p class="img-description"> Именно из такого раствора<br> создается наш продукт </p>
+						<p class="img-description"> Именно из такого раствора<br> создается наш продукт <span id="dots2">...</span><span id="more2"><br>
+						мы не будем расскрывать всех<br> секретов нашего продукта,<br> но одно мы знаем наверняка, <br>в его состав входят все самые <br>сильные кислоты мира </span></p>
+						<button id="btn2" onclick="Read_More2()">Подробнее</button>
 					</div> <!-- Конец блока с исозбражением-->
 
 			</article> <!-- Конец блока статьи -->
