@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru"><!--контейнер для всего содержимого веб-страницы-->
+
+	<head><!--предназначен для хранения документов, которые предназначены для помощи браузеру в работе с данными-->
+		<meta charset="utf-8"> <!--определяет метатеги, которые используются для хранения информации предназначенной для браузеров и поисковых систем-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<title>SOS, найден новый способ похудеть... </title><!--определяет заголовок элемента-->
+		<script defer src = "index.js"> </script>
+		<script defer src = "index2.js"> </script>
+		<script defer src = "index3.js"> </script>
+		<script defer src = "index3_1.js"> </script>
+		<script defer src = "index3_2.js"> </script>
+	</head>
+
+	<body><!--предназначен для. хранения содержимого веб-страницы, отображаемого в окне браузера-->
+		<header> <!-- Шапка сайта --><!--является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого-->
+			<div class = "container"> <!-- Меню сайта -->
+				<a href="brrr.png" title="ЛУЧШИЙ ТОВАР ПО ВЕРСИИ САМОУБИЙЦ СО СТАЖЕМ"> <!-- Логотип с ссылкой на главную -->
+<!--является одним из важных элементов HTML и предназначен для создания ссылок. В зависимости от присутствия атрибутов name или href тег устанавливает ссылку или якорь-->
+					<span class="logo">ПРОДУКТ</span><!--предназначен для определения строчных элементов документа-->
+				</a>
+
+				<p>ТАКЖЕ НАШИ ПРОДУКТЫ:
+					<div class = "container">
+					<ul> <!-- Ссылки на пункты меню --><!--устанавливает маркированный список-->
+						<li><a href="https://vk.com" title="Да-да, современные технологии и на такое способны"> ГЕЛЬ ПРОТИВ КОМАРОВ </a></li> <!-- Ссылка 1 --><!--определяет отдельный элемент списка-->
+						<li><a href="https://vk.com" title="Наверняка они сильно надоедают своими криками"> СПРЕЙ ОТ ДЕТЕЙ </a></li> <!-- Ссылка 2 и т.д. -->
+						<li><a href="https://vk.com" title="Хит сезона, отрежь все свои прыщи, и они не вернутся"> НОЖ ПРОТИВ ПРЫЩЕЙ </a></li>
+					</ul>
+				</div>
+				</p>
+
+			</div> <!-- Конец меню -->
+		</header> <!-- Конец шапки -->
+		<hr \>
+		<main> <!-- main part -->
+
+		<section class = "container"> <!--Блок раздела страницы с общей информацией -->
+			<h1>ИТАК, ЧТО ЖЕ ВСЕ-ТАКИ МОЖЕТ НАШ НОВЫЙ ПРОДУКТ И ЧТО ЭТО?</h1><!--предлагает шесть заголовков разного уровня, которые показывают относительную важность секции, расположенной после заголовка-->
+			<p>Он умеет очень много, начиная от того, что он отобьет вам аппетит и практически уничтожит ваш желудок,
+			кишечник и многие другие внутренние органs</p><!--Определяет текстовый абзац-->
+		</section> <!-- Конец блока -->
+
+		<section class = "container"> <!-- Блок раздела статей -->
+
+			<div class="bookmark-list">
+				<span style="color: black; display: inline-block; padding: 10px;"> Закладки: </span>
+			</div>
+
+			<article id="article_1"> <!-- Блок статьи 1 -->
+				<h2> НАШИ ОТЗЫВЫ </h2>
+				<a class="bookmark" href="#"> Добавить в закладки </a>
+
+					<div> <!-- Блок с исозбражением-->
+						<img alt="ETO BIL NE YA" src="bilyash.png" width="45%">
+						<p class="img-description">Как уже видно,<br> товар человеку очень сильно помог,<br> ведь мы хотим,<br> чтобы вы были
+						<b>СЧАСТЛИВЫ </b><span id="dots1">...</span><span id="more1"><br> и в жизни и в мучительной<br> смерти от нашего продукта</span></p>
+						<button id="btn1" onclick="Read_More1()">Подробнее</button>
+					</div>
+
+					<p class="attention-text">
+						Срок годности продукта: 5 минут с момента изготовления
+					</p>
+			</article> <!-- Конец блока статьи -->
+
+			<article id="article_2"> <!-- Блок статьи 2 -->
+				<h2>КАК ТАКОЕ ВООБЩЕ ВОЗМОЖНО?!</h2>
+				<a class="bookmark" href="#">Добавить в закладки</a>
+
+					<div> <!-- Блок с исозбражением-->
+						<img alt="I ETO" src="krapiva.png" width="40%" style="border-radius:15%;"><!--предназначен для отображения на веб-странице изображений в графическом формате GIF, JPEG или PNG-->
+						<p class="img-description"> Именно из такого раствора<br> создается наш продукт <span id="dots2">...</span><span id="more2"><br>
+						мы не будем расскрывать всех<br> секретов нашего продукта,<br> но одно мы знаем наверняка, <br>в его состав входят все самые <br>сильные кислоты мира </span></p>
+						<button id="btn2" onclick="Read_More2()">Подробнее</button>
+					</div> <!-- Конец блока с исозбражением-->
+
+			</article> <!-- Конец блока статьи -->
+
+		</main> <!-- End main part-->
+
+		<footer> <!-- Подвал сайта -->
+<hr \>
+			<div class="container"> <!-- Контейнер для блоков подвала -->
+
+				<div class="table-columns"><!-- Первая колонка подвала -->
+					<sup>&copy;</sup> Все права на выпускаемые продукты принадлежат исследователям воздействия тяжелых психотропных
+					веществ на обычного <b>живого</b> человека<br><br>
+				</div><!-- Конец колонки -->
+
+				<div class="table-columns"> <!-- Вторая колонка подвала -->
+
+					<div> <!-- Ссылки на социальные сети -->
+						<a title="GRRRRRRRRRR" href="https://vk.com" target="_blank" class="link1">	<span>ВКонтакте</span></a>
+						<br><br>
+						<a title="grrrrrrrrrr" href="https://twitter.com" target="_blank" class="link1">	<span>Twitter</span></a>
+					</div> <!-- Конец блока соц. сетей -->
+
+				</div><!-- Конец колонки -->
+
+				<div class="table-columns"> <!-- Третья колонка подвала -->
+					<a href="#" class="js-open-modal" data-modal="1" style="">Написать нам письмо</a> <!-- Ссылка на email -->
+					<div class="modal" data-modal="1">
+   <!--   Svg иконка для закрытия окна  -->
+  			 <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+				 <form class="mainform">
+						<p class="name">
+						 <input type="text" name="name" value="Имя" onblur="if(this.value.length == 0) this.value = 'Имя'" onfocus="if(this.value == 'Имя') this.value = '' "/>
+								<label for="name">Имя</label>
+						</p>
+
+						<p class="email">
+					 <input type="text" name="email" value="name@example.com" onblur="if(this.value.length == 0) this.value = 'name@example.com'" onfocus="if(this.value == 'name@example.com') this.value = '' " />
+							<label for="email" >E-Mail</label>
+					 </p>
+					 <p class="msg">
+						 <textarea name="msg" onblur="if(this.value.length == 0) this.value = 'Текст сообщения'" onfocus="if(this.value == 'Текст сообщения') this.value=''">Текст сообщения</textarea>
+						 <label for="msg" >Комментарий</label>
+						 </p>
+						 <p class="send" >
+						<input type="submit" value="Отправить"  />
+						</p>
+				 </form>
+				</div>
+
+					<!-- Подложка под модальным окном -->
+					<div class="overlay js-overlay-modal"></div>
+					</div> <!-- Конец колонки -->
+
+			</div><!-- Конец контейнера -->
+
+		</footer> <!-- Конец подвала -->
+		<div class="warning-text">
+		Внимание!<br> Противопоказаний замечено не было
+		</div>
+	</body>
+</html>
