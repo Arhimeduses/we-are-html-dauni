@@ -1,14 +1,14 @@
-@buttoncolor: hsla(0, 100%, 50%, 1);
+@buttoncolor: hsla(0, 100%, 50%, 1);   //цвет кнопок
 
-.ButtonHover{
-font-family:"Сomic Sans MS";
-font-size: medium;
-color: hsla(0, 0%, 0%, 1);
-border: 6px fadeout(black, 85%);
-background-color: desaturate(@buttoncolor, 30%);
+.ButtonHover{    //отображение нажимаемых кнопок
+font-family:"Сomic Sans MS";    //шрифт для кнопок
+font-size: medium;    //размер шрифта
+color: hsla(0, 0%, 0%, 1);    //цвет шрифта
+border: 6px fadeout(black, 85%);    //рамка
+background-color: desaturate(@buttoncolor, 30%);   //фон
 cursor: pointer;
 }
-.NiceButtons(@radius){
+.Buttons(@radius){    //
 border-radius: @radius;
 color: rgb(0%, 0%, 0%, 1);
 border: 10px black;
@@ -16,7 +16,7 @@ border: 10px black;
 .ButtonHover;
 }
 }
-.NiceHypertext{
+.Hypertext{
 &:link{
 color: hsl(123, 100%, 50%);
 border-bottom: 6px;
@@ -35,7 +35,7 @@ border-bottom: 1px;
 }
 
 .bookmark{
-.NiceButtons(40px);
+.Buttons(40px);
 padding: 5px;
 width: 11vw;
 height: 3vh;
@@ -45,5 +45,5 @@ margin: 20px;
 .ButtonHover;
 }
 a{
-.NiceHypertext;
+.Hypertext;
 }
