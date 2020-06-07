@@ -1,0 +1,49 @@
+@buttoncolor: hsla(173, 100%, 50%, 1);
+
+.ButtonHover{
+font-family:"Bradley Hand";
+font-size: medium;
+color: hsla(249, 89%, 64%, 1);
+border: 6px fadeout(black, 85%);
+background-color: desaturate(@buttoncolor, 30%);
+cursor: pointer;
+}
+.NiceButtons(@radius){
+border-radius: @radius;
+color: rgb(23%, 94%, 63%, 1);
+border: 10px black;
+&:hover{
+.ButtonHover;
+}
+}
+.NiceHypertext{
+&:link{
+color: hsl(156, 100%, 50%);
+border-bottom: 6px;
+}
+&:visited{
+color: #FF4500;
+}
+&:hover{
+color: #154088;
+border-bottom: .07em solid
+}
+&:active{
+color: #497DDD;
+border-bottom: 1px;
+}
+}
+
+.bookmark{
+.NiceButtons(40px);
+padding: 5px;
+width: 20vw;
+height: 1vh;
+margin: 20px;
+}
+.btn{
+.ButtonHover;
+}
+a{
+.NiceHypertext;
+}
