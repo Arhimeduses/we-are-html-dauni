@@ -1,6 +1,6 @@
 @buttoncolor: hsla(0, 100%, 50%, 1);   //цвет кнопок
 
-.ButtonHover{    //отображение нажимаемых кнопок
+.ButtonHover{    //отображение нажимаемых кнопок (примесь без параметров)
 font-family:"Сomic Sans MS";    //шрифт для кнопок
 font-size: medium;    //размер шрифта
 color: hsla(0, 0%, 0%, 1);    //цвет шрифта
@@ -8,15 +8,15 @@ border: 6px fadeout(black, 85%);    //рамка
 background-color: desaturate(@buttoncolor, 30%);   //фон
 cursor: pointer;
 }
-.Buttons(@radius){    //
-border-radius: @radius;
-color: rgb(0%, 0%, 0%, 1);
-border: 10px black;
+.Buttons(@radius){    //настройка отображения некоторых кнопок при наведении (примесь с параметром радиуса округления)
+border-radius: @radius;  //радиус можно поставить произвольный
+color: rgb(0%, 0%, 0%, 1);  //цвет
+border: 10px black;  //рамка
 &:hover{
 .ButtonHover;
 }
 }
-.Hypertext{
+.Hypertext{  //настройка для гипертекста
 &:link{
 color: hsl(123, 100%, 50%);
 border-bottom: 6px;
@@ -34,16 +34,16 @@ border-bottom: 1px;
 }
 }
 
-.bookmark{
-.Buttons(40px);
-padding: 5px;
+.bookmark{    //закладки
+.Buttons(40px);  //примесь с параметром
+padding: 5px;  //настройка отображения мнимой кнопки
 width: 11vw;
 height: 3vh;
 margin: 20px;
 }
-.btn{
-.ButtonHover;
+.btn{  //настройка кнопки показать/скрыть
+.ButtonHover; //примесь
 }
-a{
+a{  //ссылки
 .Hypertext;
 }
